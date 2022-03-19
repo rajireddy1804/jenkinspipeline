@@ -1,4 +1,5 @@
 node {
+agent any
         stage ("build")
         {
            echo "bulid successfully...."
