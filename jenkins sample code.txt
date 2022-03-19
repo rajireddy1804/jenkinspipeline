@@ -1,19 +1,16 @@
 pipeline {
-agent any
-        stage ("build")
-        {
-           echo "bulid successfully...."
+        agent any
+        stages {
+            stage ("build") {
+              steps {
+               }
         }
-        stage ("deploy")
-        {
-           echo "deployed successfully"
+             stage ("deploy") {
+              steps {
+              }
         }
-        stage ("test")
-        {
-           echo "tested succesfuly"
-        }
-        stage ("released")
-        {
-           echo "released succesfully"
-        }
+             stage ("test") {
+              steps {
+              }
+        }      
 }
